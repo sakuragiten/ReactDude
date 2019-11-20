@@ -1,0 +1,11 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/ReactDude
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../ReactDude/Classes/Lib"
+OTHER_LDFLAGS = $(inherited) -l"DoubleConversion" -l"FBReactNativeSpec" -l"Folly" -l"RCTTypeSafety" -l"React-Core" -l"React-CoreModules" -l"React-RCTActionSheet" -l"React-RCTAnimation" -l"React-RCTBlob" -l"React-RCTImage" -l"React-RCTLinking" -l"React-RCTNetwork" -l"React-RCTSettings" -l"React-RCTText" -l"React-RCTVibration" -l"React-cxxreact" -l"React-jsi" -l"React-jsiexecutor" -l"React-jsinspector" -l"ReactCommon" -l"Yoga" -l"glog"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/../..
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

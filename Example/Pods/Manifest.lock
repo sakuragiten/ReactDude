@@ -1,0 +1,16 @@
+PODS:
+  - ReactDude (0.1.0)
+
+DEPENDENCIES:
+  - ReactDude (from `../`)
+
+EXTERNAL SOURCES:
+  ReactDude:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactDude: fc833425b5a64fed6859623b8d88d4fa3fb9dfab
+
+PODFILE CHECKSUM: 02fce29a4343390d766e3314b129425c7dacb9ed
+
+COCOAPODS: 1.8.4

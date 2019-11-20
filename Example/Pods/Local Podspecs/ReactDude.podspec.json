@@ -1,0 +1,26 @@
+{
+  "name": "ReactDude",
+  "version": "0.1.0",
+  "summary": "A short description of ReactDude.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/387970107@qq.com/ReactDude",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SakuragiTen": "387970107@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/SakuragiTen/ReactDude.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ReactDude/Classes/**/*",
+  "ios": {
+    "vendored_libraries": "ReactDude/Classes/Lib/*.a"
+  },
+  "public_header_files": "Pod/Classes/Include/**/*.h"
+}

@@ -1,0 +1,6 @@
+framework module ReactDude {
+  umbrella header "ReactDude-umbrella.h"
+
+  export *
+  module * { export * }
+}
